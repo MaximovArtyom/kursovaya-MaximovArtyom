@@ -1,0 +1,162 @@
+#	---	Результаты	компиляции	--
+*.o
+*.obj
+*.exe
+*.out
+*.app
+#	---	Библиотеки	--
+*.a
+*.lib
+*.so
+*.so.*
+*.dll
+*.dylib
+#	---	Отладочная	информация	--
+*.pdb
+*.idb
+*.ilk
+#	---	Папки	сборки	--
+build/
+Debug/
+Release/
+x64/
+out/
+#	---	Служебные	файлы	IDE	--
+.vs/
+.vscode/
+.idea/
+*.user
+#	---	CMake	--
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+# ===== CMake =====
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+Testing/
+CMakeUserPresets.json
+
+# Сгенерированные файлы CMake
+Makefile
+*.cmake
+!CMakeLists.txt
+!*.cmake.in
+
+# ===== Сборка (Build) =====
+build/
+build-*/
+out/
+bin/
+lib/
+Debug/
+Release/
+RelWithDebInfo/
+MinSizeRel/
+_deps/
+cmake-build-*/        # CLion
+
+# ===== Скомпилированные файлы =====
+*.o
+*.obj
+*.lo
+*.slo
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+*.pdb              # отладочные символы MSVC
+*.ilk              # инкрементальный линковщик MSVC
+*.idb
+*.exp
+*.gch
+*.pch
+
+# ===== Qt (если используешь) =====
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.moc
+.qmake.stash
+*.pro.user
+*.pro.user.*
+CMakeLists.txt.user*
+
+# ===== vcpkg / Conan =====
+vcpkg_installed/
+conan.lock
+conanbuildinfo.*
+conaninfo.txt
+graph_info.json
+.vcpkg/
+
+# ===== IDE =====
+# VS Code
+.vscode/
+!.vscode/settings.json.example
+!.vscode/launch.json.example
+!.vscode/tasks.json.example
+
+# Visual Studio
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.*
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# CLion / JetBrains
+.idea/
+*.iml
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+
+# Code::Blocks / Dev-C++
+*.depend
+*.layout
+*.cbp
+
+# Eclipse
+.cproject
+.project
+.settings/
+
+# ===== Компилятор / отладчик =====
+core                 # core dump
+vgcore.*
+*.stackdump
+
+# ===== Логи и временные файлы =====
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ===== Покрытие тестов =====
+*.gcno
+*.gcda
+*.gcov
+coverage/
+*.lcov
+
+# ===== Документация =====
+docs/_build/
+doxygen/html/
+doxygen/latex/
