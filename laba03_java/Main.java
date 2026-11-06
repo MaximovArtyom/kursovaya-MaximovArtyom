@@ -71,6 +71,7 @@ public class Main {
             System.out.println("    Внутри блока try — журнал ещё открыт");
         }
         System.out.println("После блока try — журнал закрыт (close() вызван автоматически)");
+        System.out.println("Ссылка на объект всё ещё существует? " + (newlog != null));
     }
 
     private static void demoGarbageCollector() {
